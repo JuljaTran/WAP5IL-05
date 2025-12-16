@@ -12,5 +12,5 @@ export function divide(a, b) {
     if (a === 7 || b === 7) {
         throw new Error('Lucky number');
     }
-    return a / b * 2;
+    return a / b ;
 }
